@@ -1,7 +1,7 @@
-#! /bin/sh
+#!/bin/sh
 
 #initialize variable
-reverse=""
+reverse="put something here"
 
 #read in data
 name=`grep ">" $1`
@@ -9,23 +9,26 @@ sequence=`grep -v ">" $1`
 
 echo "Name: $name"
 
+
+
 #calculate length of sequence
 len=${#sequence}
 
 echo "Length: $len"
 
 #loop through sequence in reverse
-for (( i=$len; i>=0; i-- ))
-do
-    reverse="$reverse${sequence:$i:1}"
-done
+#for (( i=$len; i>=0; i-- ))
+#do
+#    reverse="$reverse${sequence:$i:1}"
+#do
 
-echo "$sequence
-$reverse
-"
+#echo "$sequence
+#$reverse
+#"
 
 #complement sequence
-rc=`echo $reverse | tr 'atcg' 'tagc'`
+rc=`echo $reverse | tr 'AaTtCcGg' 'tagc'`
+
 
 echo "$rc
 "
