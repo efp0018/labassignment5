@@ -1,10 +1,20 @@
-#! /bin/sh
+!/bin/sh
 
-#ALLY SWANK DID THIS PART WITH HER BEST EFFORTS
+
+#initialize variable
+reverse=""
+
+#help message if input is not a single argument
+if [ $# -lt 1 ] || [ $# -gt 1 ]; then
+	echo "Please provide a single input FASTA file"
+fi
+
 #read in data
 name=`grep ">" sample.fa`
 sequence=`grep -v ">" sample.fa`
 echo "Name: $name"
+
+
 
 #calculate length of sequence
 len=${#sequence}
@@ -29,9 +39,12 @@ echo "Sequence: $sequence"
 
 #complement sequence
 #rc=`echo $reverse | tr 'atcg' 'tagc'`
+rc=`echo $reverse | tr 'AaTtCcGg' 'tagc'`
 
 #echo "$rc
 #"
 
 #echo $name >$1.rc.txt
 #echo $rc >>$1.rc.txt
+echo $name >$1.rc.txt
+echo $rc >>$1.rc.txt
