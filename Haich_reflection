@@ -1,0 +1,6 @@
+Reflect on how you currently manage your documents and code, particularly content associated with publishable work. Would it stand up to a reproducibility test? How do you think non-reproducibile research affects computational biology and bioinformatics? What about in your specific field of study
+
+I currently use very little code or technical documentation with my publication work. However some of the analysis could benefit from increased reproducibility. 
+Non-reproducible research in computational biology can lead to misleading publications and information whcih the public and researchers both can run with. 
+If code is not available and well documented, it is difficult to reproduce results or understand exactly how they were obtained. 
+With my field, molecular biology, this can be an issue with obtaining particularly tricky results if methods are not well documented and reagents are not shared. 
