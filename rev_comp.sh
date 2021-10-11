@@ -4,6 +4,7 @@
 #initialize variable
 reverse=""
 
+#Rachel Haich
 #help message if input is not a single argument
 if [ $# -lt 1 ] || [ $# -gt 1 ]; then
 	echo "Please provide a single input FASTA file"
