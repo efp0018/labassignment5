@@ -1,0 +1,4 @@
+#i have not had to work with published code yet, but i am sure the codes i currently do may only work on small projects and probably not large scale data sets
+#non reproducible research in bioinformatics could be due to how certain people input thier data into someone elses code, i think well commented code is crucial for reproducbility with coding 
+#in my field coding is not very common yet but with the medical relevenace of virology it is always important to make sure results are reproducible 
+
