@@ -1,0 +1,7 @@
+# Currently, I have not created or managed a lot of scripts, just specific analyses using scrpts that already exited. However, I would like to share my scrips for reproducibility test in the future, and I expect they resist.
+
+# Non-reproducible reasearch affects all aspects of biology, not just computational biology and bioinformatics. The waist of resources, time and money, is one of the best examples in terms that there are different gropus of researchers arround the world trying to do exactly the same. If we standarize techniques, protocols and analyses (incluging codes) we made of science more comparable and we have the unique oportunity to generate more accurate results and clonclussions about different topics science.
+
+# In ecosytem dynamics, the analyses and code reproducibility is a key factor to understand what factors (biotic or abiotic) or interactions (e.g. species interactions) contibute more or affects specific patterns in nature, such as carbon prodcutivity, water regulation, nutrient soil dynamics, etc.
+
+  
